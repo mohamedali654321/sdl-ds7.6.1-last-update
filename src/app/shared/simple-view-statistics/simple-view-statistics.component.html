@@ -1,0 +1,36 @@
+<!-- 
+<div class="d-block clearfix ng-star-inserted">
+  <span [attr.title]="('views.counts' | translate)" style="background-color: transparent !important;color: #6c757d !important;font-size: 75% !important;padding-top: 4px;" class="badge badge-info badge-metric mr-1 view ng-star-inserted"><span class="fa fa-eye">&nbsp;</span>{{TotalVisits | async}}</span>
+  <span [attr.title]="('downloads.counts' | translate)" style="background-color: transparent !important;color: #6c757d !important;font-size: 75% !important;" class="badge badge-info badge-metric download mr-1 ng-star-inserted"><span class="fa fa-download">&nbsp;</span>{{TotalDownloads | async}}</span>
+
+</div> -->
+
+
+
+<div id="metrics" aria-label="Metrics" class="ui segment rdm-sidebar sidebar-container">
+
+
+  <div class="ui tiny two statistics rel-mt-1">
+    
+    
+  
+    <div class="ui statistic">
+      <div style="font-size: 28px !important;" class="value">{{(TotalVisits | async) | dsShortNumber }}</div>
+      <div style="font-size: 14px !important;" class="label">
+        <i aria-hidden="true" class="fa fa-eye"></i>
+        {{'views.counts' | translate}}
+      </div>
+    </div>
+  
+    <div class="ui statistic" style="margin-top: -2px !important;">
+      <div style="font-size: 28px !important;" class="value">{{(TotalDownloads | async) | dsShortNumber}}</div>
+      <div style="font-size: 14px !important;" class="label">
+        <i aria-hidden="true" class="fa fa-download"></i>
+        {{'downloads.counts' | translate}}
+      </div>
+    </div>
+  </div>
+  
+
+  
+</div>

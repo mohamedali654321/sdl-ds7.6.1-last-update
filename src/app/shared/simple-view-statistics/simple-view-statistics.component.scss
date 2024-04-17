@@ -1,0 +1,121 @@
+// #metrics {
+//     padding: 1.75rem 1.5rem;
+// }
+
+
+.sixteen.wide.tablet.five.wide.computer.column.sidebar>.sidebar-container:first-child, .sixteen.wide.tablet.five.wide.computer.column.sidebar>.sidebar-container:last-child {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.sidebar-container, .ui.segment.sidebar-container {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.28571429rem;
+}
+
+.sidebar-container, .ui.segment.sidebar-container {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.28571429rem;
+}
+
+.ui.segment.rdm-sidebar {
+    box-shadow: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.ui.segment, .ui.segments .segment {
+    font-size: 1rem;
+}
+.ui.segment {
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: 0.28571429rem;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin: 1rem 0;
+    padding: .25em;
+    position: relative;
+}
+ui.two.statistics .statistic {
+    margin: 0 0 1em;
+    min-width: 50%;
+}
+
+#metrics .ui.tiny.two.statistics.rel-mt-1 {
+    margin-top: 0.5rem!important;
+}
+// .ui.two.statistics {
+//     margin: 0 0 -1em;
+// }
+// .ui.statistics:first-child {
+//     margin-top: 0;
+// }
+.ui.statistics {
+    display: flex;
+    margin: 1em -4.5em -1em;
+}
+// .ui.statistics {
+//     align-items: flex-start;
+//     flex-wrap: wrap;
+// }
+.rel-mt-1 {
+    margin-top: 1em!important;
+}
+
+
+.ui.two.statistics .statistic {
+    margin: 0 0 1em;
+    min-width: 50%;
+}
+.ui.statistics>.statistic {
+    display: inline-flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    margin: 0 1.5em 1em;
+    max-width: auto;
+}
+.ui.statistic:first-child {
+    margin-top: 0;
+}
+.ui.statistic {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 1em 0;
+    max-width: auto;
+}
+
+ui.tiny.statistics .statistic>.value {
+    font-size: 2rem!important;
+}
+.ui.statistic>.value, .ui.statistics .statistic>.value {
+    font-size: 4rem!important;
+}
+.ui.statistic>.value, .ui.statistics .statistic>.value {
+    color: #1b1c1d;
+
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ui.statistic>.value~.label, .ui.statistics .statistic>.label~.value, .ui.statistics .statistic>.value~.label {
+    margin-top: 0;
+}
+.ui.statistic>.label, .ui.statistics .statistic>.label {
+    color: rgba(0,0,0,.87);
+    
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}

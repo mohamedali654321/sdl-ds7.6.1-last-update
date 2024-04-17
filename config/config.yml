@@ -1,0 +1,11 @@
+# rest:
+#   ssl: true
+#   host: demo.dspace.org
+#   port: 443
+#   nameSpace: /server
+
+rest:
+  ssl: true
+  host: dspace-sdl-api.maktabat-online.com
+  port: 443
+  nameSpace: /server

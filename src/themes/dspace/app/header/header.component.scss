@@ -1,0 +1,135 @@
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  nav.navbar {
+    display: none;
+  }
+  .header {
+    background-color: var(--ds-header-bg);
+  }
+}
+
+.navbar-brand img {
+  @media screen and (max-width: map-get($grid-breakpoints, md)) {
+    width: 110px; //NU-edit
+    height: 90px; //NU-edit
+  }
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: none !important;
+  line-height: 1.5;
+}
+
+.navbar-toggler {
+  color: var(--ds-header-icon-color);
+
+  &:hover, &:focus {
+    color: var(--ds-header-icon-color-hover);
+  }
+}
+
+.header {
+  background-color: #FFF !important; //NU-edit
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+  // -webkit-transform: translate3d(0,0,1px) !important;
+  // transform: translate3d(0,0,1px)!important;
+}
+
+nav{
+  height: 120px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+
+::ng-deep .scrolledHeader{
+  background-color: #2666ab !important ; //NU-edit
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+
+  .dropdown-menu[_ngcontent-dspace-angular-c41] a.nav-link{
+    color: #FFF !important;
+  }
+
+  @media screen and (min-width: map-get($grid-breakpoints, md)) {
+    nav.navbar {
+      display: none;
+    }
+   
+      background-color: #2666ab !important;
+    
+  }
+  
+  .navbar-brand img {
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+      height: var(--ds-header-logo-height-xs);
+      filter: brightness(0) invert(1);
+      width: 50px;
+    margin-top: 5px;
+    }
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: none !important;
+    line-height: 1.5;
+  }
+  
+  .navbar-toggler {
+    color:  #2666ab !important;
+  
+    &:hover, &:focus {
+      color: #FFF;
+    }
+  }
+  
+
+
+  .navbar-nav{
+    background-color: #2666ab !important;
+  }
+  ul li a{
+    color: #FFF !important;
+  }
+
+   ds-link-menu-item .nav-item{
+    color: #FFF !important;
+  }
+  .submit-icon{
+    color: #FFF !important;
+  }
+ 
+  .navbar-toggler{
+    background-color: #FFF !important;
+  }
+  
+    .dropdown-toggle {
+      color: #FFF !important;
+    }
+    .dropdown-toggle:hover, .dropdown-togglefocus {
+      color: #FFF !important;
+    }
+    .lang-switcher-btn{
+       color: #FFF !important;
+    }
+
+
+    ds-expandable-navbar-section ul{
+      background-color: #2666ab !important;
+    }
+
+ 
+
+     .dropdown-menu {
+      z-index: 999 !important;
+      transform: translate(5px, 44px) !important;
+      border: 2px solid #b4b1b1 !important;
+  }
+  
+  nav{
+    height: 90px;
+    width: 100%;
+    background-color: #2666ab !important;
+   
+  }
+}
+}
